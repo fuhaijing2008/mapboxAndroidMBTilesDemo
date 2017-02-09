@@ -1,0 +1,725 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2014-12-23T18:46:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/100866269",
+      "properties": {
+        "@id": "way/100866269",
+        "addr:housename": "Ballard Building",
+        "addr:housenumber": "2208",
+        "addr:postcode": "98107",
+        "addr:street": "Northwest Market Street",
+        "building": "office",
+        "name": "Ballard Building",
+        "@timestamp": "2013-08-18T02:44:58Z",
+        "@version": "4",
+        "@changeset": "17390848",
+        "@user": "SeattleImport",
+        "@uid": "1382179"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3856848,
+              47.6690859
+            ],
+            [
+              -122.3856844,
+              47.668828
+            ],
+            [
+              -122.3848742,
+              47.6688285
+            ],
+            [
+              -122.3848746,
+              47.6691034
+            ],
+            [
+              -122.3850895,
+              47.6691033
+            ],
+            [
+              -122.3850893,
+              47.6689165
+            ],
+            [
+              -122.385151,
+              47.6689164
+            ],
+            [
+              -122.3851512,
+              47.6690772
+            ],
+            [
+              -122.3852769,
+              47.6690772
+            ],
+            [
+              -122.3852769,
+              47.6690862
+            ],
+            [
+              -122.3856848,
+              47.6690859
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/100866661",
+      "properties": {
+        "@id": "way/100866661",
+        "building": "yes",
+        "@timestamp": "2013-08-18T20:44:51Z",
+        "@version": "2",
+        "@changeset": "17402495",
+        "@user": "czuckerman",
+        "@uid": "1716993"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3840066,
+              47.6690783
+            ],
+            [
+              -122.3840083,
+              47.6688327
+            ],
+            [
+              -122.3836088,
+              47.6688314
+            ],
+            [
+              -122.3836071,
+              47.669077
+            ],
+            [
+              -122.3840066,
+              47.6690783
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/100866662",
+      "properties": {
+        "@id": "way/100866662",
+        "addr:city": "Seattle, WA",
+        "addr:housename": "2060 NW Market Street",
+        "addr:postcode": "98107",
+        "building": "yes",
+        "name": "Ballard Coffee Works",
+        "phone": "(206) 340-8867",
+        "@timestamp": "2013-08-17T20:41:03Z",
+        "@version": "2",
+        "@changeset": "17388688",
+        "@user": "czuckerman",
+        "@uid": "1716993"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3846168,
+              47.6690798
+            ],
+            [
+              -122.3846134,
+              47.6688324
+            ],
+            [
+              -122.3844129,
+              47.6688298
+            ],
+            [
+              -122.3844065,
+              47.6690784
+            ],
+            [
+              -122.3846168,
+              47.6690798
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/160262932",
+      "properties": {
+        "@id": "way/160262932",
+        "building": "yes",
+        "@timestamp": "2012-04-19T18:43:04Z",
+        "@version": "1",
+        "@changeset": "11356766",
+        "@user": "jharpster",
+        "@uid": "250487"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3840193,
+              47.6690838
+            ],
+            [
+              -122.3842234,
+              47.6690859
+            ],
+            [
+              -122.3842293,
+              47.6688301
+            ],
+            [
+              -122.3840252,
+              47.6688279
+            ],
+            [
+              -122.3840193,
+              47.6690838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/160262945",
+      "properties": {
+        "@id": "way/160262945",
+        "building": "yes",
+        "website": "http://majesticbay.com/",
+        "@timestamp": "2013-08-18T20:52:34Z",
+        "@version": "2",
+        "@changeset": "17402592",
+        "@user": "czuckerman",
+        "@uid": "1716993"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3842265,
+              47.6690763
+            ],
+            [
+              -122.3844065,
+              47.6690784
+            ],
+            [
+              -122.3844129,
+              47.6688298
+            ],
+            [
+              -122.3842293,
+              47.6688301
+            ],
+            [
+              -122.3842265,
+              47.6690763
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/178540022",
+      "properties": {
+        "@id": "way/178540022",
+        "building": "yes",
+        "@timestamp": "2012-08-29T18:19:19Z",
+        "@version": "1",
+        "@changeset": "12908579",
+        "@user": "jharpster",
+        "@uid": "250487"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3839698,
+              47.6685485
+            ],
+            [
+              -122.3839494,
+              47.6685193
+            ],
+            [
+              -122.3839763,
+              47.668503
+            ],
+            [
+              -122.3840503,
+              47.6684907
+            ],
+            [
+              -122.3837043,
+              47.6682107
+            ],
+            [
+              -122.3835916,
+              47.6682685
+            ],
+            [
+              -122.3836624,
+              47.6683314
+            ],
+            [
+              -122.3837472,
+              47.6682974
+            ],
+            [
+              -122.3838438,
+              47.6683805
+            ],
+            [
+              -122.3836372,
+              47.6684961
+            ],
+            [
+              -122.3836866,
+              47.6685428
+            ],
+            [
+              -122.3839698,
+              47.6685485
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/233923302",
+      "properties": {
+        "@id": "way/233923302",
+        "building": "yes",
+        "source": "data.seattle.gov",
+        "@timestamp": "2013-08-18T00:20:51Z",
+        "@version": "1",
+        "@changeset": "17390324",
+        "@user": "SeattleImport",
+        "@uid": "1382179"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3859596,
+              47.668533
+            ],
+            [
+              -122.3854757,
+              47.6681892
+            ],
+            [
+              -122.3853029,
+              47.6683001
+            ],
+            [
+              -122.3853248,
+              47.6683157
+            ],
+            [
+              -122.3853069,
+              47.6683272
+            ],
+            [
+              -122.3853919,
+              47.6683876
+            ],
+            [
+              -122.3852807,
+              47.668459
+            ],
+            [
+              -122.3850009,
+              47.6682602
+            ],
+            [
+              -122.3852928,
+              47.6680728
+            ],
+            [
+              -122.3851487,
+              47.6679704
+            ],
+            [
+              -122.3848783,
+              47.6681441
+            ],
+            [
+              -122.3848815,
+              47.6685475
+            ],
+            [
+              -122.3853967,
+              47.6685456
+            ],
+            [
+              -122.3854369,
+              47.6685198
+            ],
+            [
+              -122.385465,
+              47.6685397
+            ],
+            [
+              -122.3854528,
+              47.6685476
+            ],
+            [
+              -122.3859397,
+              47.6685458
+            ],
+            [
+              -122.3859596,
+              47.668533
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/6386076",
+      "properties": {
+        "@id": "way/6386076",
+        "highway": "secondary",
+        "name": "Leary Avenue Northwest",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "Leary",
+        "tiger:name_direction_suffix": "NW",
+        "tiger:name_type": "Ave",
+        "tiger:reviewed": "no",
+        "tiger:separated": "no",
+        "tiger:source": "tiger_import_dch_v0.6_20070830",
+        "tiger:tlid": "186658869:186659716:186659935:186659938:186659948",
+        "tiger:zip_left": "98107",
+        "tiger:zip_right": "98107",
+        "@timestamp": "2011-12-27T19:52:20Z",
+        "@version": "7",
+        "@changeset": "10219009",
+        "@user": "xybot",
+        "@uid": "70696"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3788844,
+            47.6639772
+          ],
+          [
+            -122.380004,
+            47.6648877
+          ],
+          [
+            -122.3808152,
+            47.6655523
+          ],
+          [
+            -122.3808817,
+            47.6656104
+          ],
+          [
+            -122.3821458,
+            47.6666448
+          ],
+          [
+            -122.3823688,
+            47.666878
+          ],
+          [
+            -122.384439,
+            47.6686659
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/158265852",
+      "properties": {
+        "@id": "way/158265852",
+        "highway": "secondary",
+        "lanes": "4",
+        "maxspeed": "30 mph",
+        "name": "Northwest Market Street",
+        "old_name": "Broadway (Ballard)",
+        "tiger:cfcc": "A41",
+        "tiger:county": "King, WA",
+        "tiger:name_base": "Market",
+        "tiger:name_direction_prefix": "NW",
+        "tiger:name_type": "St",
+        "tiger:zip_left": "98107",
+        "tiger:zip_right": "98107",
+        "@timestamp": "2014-11-24T20:20:47Z",
+        "@version": "5",
+        "@changeset": "27006709",
+        "@user": "jharpster",
+        "@uid": "250487"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3640443,
+            47.668671
+          ],
+          [
+            -122.3661765,
+            47.6686705
+          ],
+          [
+            -122.3729412,
+            47.6686688
+          ],
+          [
+            -122.3730151,
+            47.6686688
+          ],
+          [
+            -122.373493,
+            47.6686686
+          ],
+          [
+            -122.3736634,
+            47.6686686
+          ],
+          [
+            -122.3748698,
+            47.6686683
+          ],
+          [
+            -122.3750726,
+            47.6686683
+          ],
+          [
+            -122.3754999,
+            47.6686681
+          ],
+          [
+            -122.376198,
+            47.668668
+          ],
+          [
+            -122.3788771,
+            47.6686673
+          ],
+          [
+            -122.3803019,
+            47.6686669
+          ],
+          [
+            -122.381701,
+            47.6686666
+          ],
+          [
+            -122.3821559,
+            47.6686665
+          ],
+          [
+            -122.3830742,
+            47.6686663
+          ],
+          [
+            -122.384439,
+            47.6686659
+          ],
+          [
+            -122.384739,
+            47.6686658
+          ],
+          [
+            -122.386106,
+            47.6686655
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/158782243",
+      "properties": {
+        "@id": "way/158782243",
+        "highway": "residential",
+        "name": "22nd Avenue Northwest",
+        "@timestamp": "2013-10-03T19:15:58Z",
+        "@version": "3",
+        "@changeset": "18167478",
+        "@user": "Yeliena",
+        "@uid": "1593364"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3847451,
+            47.6709178
+          ],
+          [
+            -122.3847388,
+            47.6707712
+          ],
+          [
+            -122.3847397,
+            47.6704918
+          ],
+          [
+            -122.3847371,
+            47.6701817
+          ],
+          [
+            -122.3847387,
+            47.6694547
+          ],
+          [
+            -122.384739,
+            47.6686658
+          ],
+          [
+            -122.3847621,
+            47.6676893
+          ],
+          [
+            -122.3847804,
+            47.6665273
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3203542408",
+      "properties": {
+        "@id": "node/3203542408",
+        "addr:city": "Seattle",
+        "addr:housenumber": "2208",
+        "addr:postcode": "98107",
+        "addr:state": "WA",
+        "addr:street": "NW Market St",
+        "name": "Spatial Development International",
+        "office": "company",
+        "@timestamp": "2014-11-24T20:12:49Z",
+        "@version": "1",
+        "@changeset": "27006416",
+        "@user": "jharpster",
+        "@uid": "250487"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3849681,
+          47.6690451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1709181169",
+      "properties": {
+        "@id": "node/1709181169",
+        "highway": "traffic_calming",
+        "traffic_calming": "island",
+        "@timestamp": "2013-10-03T19:15:58Z",
+        "@version": "2",
+        "@changeset": "18167478",
+        "@user": "Yeliena",
+        "@uid": "1593364"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3847451,
+          47.6709178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/53101628",
+      "properties": {
+        "@id": "node/53101628",
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "@timestamp": "2014-11-24T20:20:47Z",
+        "@version": "9",
+        "@changeset": "27006709",
+        "@user": "jharpster",
+        "@uid": "250487"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.384739,
+          47.6686658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/53246786",
+      "properties": {
+        "@id": "node/53246786",
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "@timestamp": "2014-11-24T20:20:47Z",
+        "@version": "11",
+        "@changeset": "27006709",
+        "@user": "jharpster",
+        "@uid": "250487"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.376198,
+          47.668668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/53179290",
+      "properties": {
+        "@id": "node/53179290",
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "source": "yahoo_wms",
+        "@timestamp": "2014-11-24T20:20:47Z",
+        "@version": "12",
+        "@changeset": "27006709",
+        "@user": "jharpster",
+        "@uid": "250487"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3661765,
+          47.6686705
+        ]
+      }
+    }
+  ]
+}
