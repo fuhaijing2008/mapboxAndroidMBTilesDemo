@@ -10,19 +10,19 @@ import android.util.Log;
 import com.mapbox.mapboxsdk.overlay.UserLocationOverlay;
 import com.mapbox.mapboxsdk.tileprovider.tilesource.ITileLayer;
 import com.mapbox.mapboxsdk.tileprovider.tilesource.MBTilesLayer;
-
 import com.mapbox.mapboxsdk.views.MapView;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 
 public class MainActivity extends Activity {
 
-    private MapView mv;
+    @BindView(R.id.mapview)
+    MapView mv;
+
     private UserLocationOverlay myLocationOverlay;
     private LocationManager locationManager;
-    @BindView(R.id.mapview)
-    MapView mBtnGet;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,11 +30,10 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-        mv = (MapView) findViewById(R.id.mapview);
         mv.setUseDataConnection(false);
 
         MBTilesLayer mbTileLayer = new MBTilesLayer("/mnt/sdcard/hongdae.mbtiles");
-        mv.setTileSource(new ITileLayer[] {mbTileLayer});
+        mv.setTileSource(new ITileLayer[]{mbTileLayer});
         mv.setScrollableAreaLimit(mbTileLayer.getBoundingBox());
         mv.setMinZoomLevel(mv.getTileProvider().getMinimumZoomLevel());
         mv.setMaxZoomLevel(mv.getTileProvider().getMaximumZoomLevel());
@@ -46,7 +45,7 @@ public class MainActivity extends Activity {
         super.onDestroy();
         if (locationManager != null) {
             // 关闭程序时将监听器移除
-         //   locationManager.removeUpdates(locationListener);
+            //   locationManager.removeUpdates(locationListener);
         }
     }
 
@@ -55,12 +54,15 @@ public class MainActivity extends Activity {
         public void onStatusChanged(String provider, int status, Bundle
                 extras) {
         }
+
         @Override
         public void onProviderEnabled(String provider) {
         }
+
         @Override
         public void onProviderDisabled(String provider) {
         }
+
         @Override
         public void onLocationChanged(Location location) {
             // 更新当前设备的位置信息
@@ -71,6 +73,6 @@ public class MainActivity extends Activity {
     private void showLocation(Location location) {
         String currentPosition = "latitude is " + location.getLatitude() + "\n"
                 + "longitude is " + location.getLongitude();
-        Log.e("location",currentPosition);
+        Log.e("location", currentPosition);
     }
 }
