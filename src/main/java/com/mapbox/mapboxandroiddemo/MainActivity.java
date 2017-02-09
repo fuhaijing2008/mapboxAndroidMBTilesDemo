@@ -21,8 +21,8 @@ public class MainActivity extends Activity {
     private MapView mv;
     private UserLocationOverlay myLocationOverlay;
     private LocationManager locationManager;
-   // @BindView(R.id.mapview)
-   // Button mBtnGet;
+    @BindView(R.id.mapview)
+    MapView mBtnGet;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
