@@ -6,6 +6,7 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextView;
 
 import com.mapbox.mapboxsdk.overlay.UserLocationOverlay;
 import com.mapbox.mapboxsdk.tileprovider.tilesource.ITileLayer;
@@ -20,6 +21,8 @@ public class MainActivity extends Activity {
 
     @BindView(R.id.mapview)
     MapView mv;
+    @BindView(R.id.textView)
+    TextView zoomLevel;
 
     private UserLocationOverlay myLocationOverlay;
     private LocationManager locationManager;
@@ -39,6 +42,7 @@ public class MainActivity extends Activity {
         mv.setMaxZoomLevel(mv.getTileProvider().getMaximumZoomLevel());
         mv.setCenter(mv.getTileProvider().getCenterCoordinate());
         mv.setUseSafeCanvas(true);
+        zoomLevel.setText("当前级别：16级");
     }
 
     protected void onDestroy() {

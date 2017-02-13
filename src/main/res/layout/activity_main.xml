@@ -13,4 +13,15 @@ tools:context=".MainActivity">
     mapbox:mapid="Your MapBox mapid"
     mapbox:accessToken="pk.eyJ1IjoiZmhqIiwiYSI6ImNpeTB4cTAyNTAwOGEzM21jYmZ5NHp2d3QifQ.cYhIkkR-pqtz9P8JvZXpiA"/>
 
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/textView" />
+
 </RelativeLayout>
